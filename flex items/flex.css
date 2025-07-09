@@ -1,0 +1,49 @@
+.conteiner {
+    display: flex;
+    width: 800px;
+    border: 2px solid #555;
+    margin: 20px auto;
+    /* max-width: 800px; */
+}
+
+.item {
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    /* line-height: 100px; */
+    
+}
+
+.rojo { 
+    background-color: red;
+    order: 3;
+    
+}
+
+.verde { 
+    background-color: green;
+    order: 1;
+}
+
+.azul { 
+    background-color: blue;
+    order: 4;
+}
+
+.violeta { 
+    background-color: violet;
+    order: 3;
+}
+
+.naranja { 
+    background-color: orange;
+    order: 5;
+}
+
+.amarillo { 
+    background-color: yellow;
+    order: 0;
+}

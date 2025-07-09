@@ -1,0 +1,9 @@
+
+Fondo base	    #0F0F1A	    Azul grisáceo profundo, sobrio, ideal para dark UI
+Contraste	    #F8FAFC	    Blanco cálido azulado, legible y elegante
+Primario	    #38BDF8	    Celeste tecnológico vibrante (Sky 400 de Tailwind)
+Secundario	    #6366F1	    Azul violeta moderno (Indigo 500)
+Tercero/acento	#22D3EE	    Cyan brillante para botones o indicadores sutiles
+Error	        #EF4444	    Rojo suave, no agresivo
+Éxito	        #10B981	    Verde turquesa moderno
+Gris medio	    #1F2937	    Ideal para fondo de cards, sidebar, separadores

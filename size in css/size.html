@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Unidades en CSS</title>
+  <style>
+    html {
+      font-size: 16px; /* 1rem = 16px */
+    }
+
+    body {
+      padding: 20px;
+      font-family: sans-serif;
+    }
+
+    .px-box {
+      font-size: 20px;
+      background: #ffd1dc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .rem-box {
+      font-size: 2rem; /* 2 * 16px = 32px */
+      background: #c1f0f6;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .em-parent {
+      font-size: 20px;
+      background: #e2f7c1;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .em-child {
+      font-size: 1.5em; /* 1.5 * 20px = 30px */
+      background: #a3d2ca;
+      padding: 10px;
+    }
+
+    .vw-box {
+      font-size: 5vw; /* Escala con el ancho de pantalla */
+      background: #ffec99;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="px-box">
+    Esto está en <strong>20px</strong>.
+  </div>
+
+  <div class="rem-box">
+    Esto está en <strong>2rem</strong> (basado en root).
+  </div>
+
+  <div class="em-parent">
+    Elemento padre (20px)
+    <div class="em-child">
+      Hijo con <strong>1.5em</strong> (30px relativo al padre).
+    </div>
+  </div>
+
+  <div class="vw-box">
+    Esto usa <strong>5vw</strong>, cambia con el ancho de la pantalla.
+  </div>
+
+</body>
+</html>
