@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-    transform: rotate(5deg);
+    transform: rotate(3.4deg);
 }
 
 nav {
@@ -32,4 +32,10 @@ nav {
     margin: 2em 0 2em 0;
     background-color: #1F2937;
     border-radius: 80px 0 80px 0;
+    transition: all ease-out 0.3s;
+}
+
+nav:hover {
+    transform: translateY(-5px);
+    box-shadow: 5px 5px 8px  rgba(255, 255, 255, 0.3);
 }
