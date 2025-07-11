@@ -106,3 +106,39 @@ h2 {
 footer {
     text-align: center;
 }
+
+
+
+
+
+
+/* GRID */
+
+.body-gridclass {
+    background-color: #F8FAFC;
+}
+
+.grid-container {
+    display: grid;
+    background-color: #1F2937;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 200px 200px 200px 200px;
+    row-gap: 60px;
+    column-gap: 30px;
+}
+
+.grid {
+    font-family: monospace;
+    font-weight: bold;
+    color: #1F2937;
+    text-decoration: underline;
+}
+
+.grid--1 {background-color: red; }
+.grid--2 {background-color: blue;  }
+.grid--3 {background-color: yellow;  }
+.grid--4 {background-color: green;  }
+.grid--5 {background-color: orange;  }
+.grid--6 {background-color: violet;  }
+.grid--7 {background-color: aqua;  }
+.grid--8 {background-color: yellowgreen;  }
